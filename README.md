@@ -1,11 +1,11 @@
 # OSProject Running Containers for Application Development
 
-Group Name: __Fill your team name__. 
+Group Name: __halo__. 
 
 Section: __1__. 
 
 Team Mates:
-1. __Ainu Maisarah binti Ami Nuddin__ and __2216320__
+1. __AINU MAISARAH BINTI AMI NUDDIN__ and __2216320__
 2. __Fill name__ and __matric no__
 3. __Fill name__ and __matric no__
 
