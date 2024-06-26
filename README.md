@@ -2,10 +2,10 @@
 
 Group Name: __Fill your team name__. 
 
-Section: __Fill your class section__. 
+Section: __1__. 
 
 Team Mates:
-1. __Fill name__ and __matric no__
+1. __Ainu Maisarah binti Ami Nuddin__ and __2216320__
 2. __Fill name__ and __matric no__
 3. __Fill name__ and __matric no__
 
