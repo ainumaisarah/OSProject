@@ -6,7 +6,7 @@ Section: __1__.
 
 Team Mates:
 1. __AINU MAISARAH BINTI AMI NUDDIN__ and __2216320__
-2. __Fill name__ and __matric no__
+2. __AMIRAH AMNANI BINTI MOHD HUSHINI @ MOHD HUSAINI__ and __2215714__
 3. __Fill name__ and __matric no__
 
 ## Rules
