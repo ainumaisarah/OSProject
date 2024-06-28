@@ -176,14 +176,15 @@ At the terminal, create a new directory called **myroot**, and run a instance of
 
    <img src="./images/q1.png" width="70%">
 3. Can you change the permission of the files to user codespace.  You will need this to be able to commit and get points for this question. ***(2 mark)***
-
-   <img src="./images/q2.png" width="70%">
+   
 ```bash
     
 //use sudo and chown
 sudo chown -R codespace:codespace myroot
 
 ```
+<img src="./images/q2.png" width="70%">
+
 *** __Fill answer here__.***
 
 ## You are on your own, create your own static webpage
