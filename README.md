@@ -76,9 +76,10 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ pwd
+1. Run the command **pwd** . ***(1 mark)***
+       @ainumaisarah ➜ /workspaces/OSProject (main) $ pwd
 /workspaces/OSProject
-2. Run the command **cat /etc/passwd** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /etc/passwd
+3. Run the command **cat /etc/passwd** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -104,7 +105,7 @@ systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
-3. Run the command **df** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ df
+4. Run the command **df** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10380492  20773092  34% /
 tmpfs              65536        0     65536   0% /dev
@@ -112,7 +113,7 @@ shm                65536        8     65528   1% /dev/shm
 /dev/root       30298176 24339544   5942248  81% /vscode
 /dev/sdb1       46127956      104  43752276   1% /tmp
 /dev/loop3      32847680 10380492  20773092  34% /workspaces
-4. Run the command **du** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ du
+5. Run the command **du** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ du
 2028    ./images
 8       ./.git/logs/refs/heads
 8       ./.git/logs/refs/remotes/origin
@@ -136,20 +137,20 @@ shm                65536        8     65528   1% /dev/shm
 4       ./.git/branches
 2128    ./.git
 4180    .
-5. Run the command **ls** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ ls
+6. Run the command **ls** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ ls
 README.md  images
-6. Run the command **ls -asl** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ ls -asl
+7. Run the command **ls -asl** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ ls -asl
 total 36
  4 drwxrwxrwx+ 4 codespace root  4096 Jun 29 14:13 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jun 29 14:13 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jun 29 14:23 .git
 20 -rw-rw-rw-  1 codespace root 20298 Jun 29 14:29 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jun 29 14:13 images
-7. Run the command **free -h** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ free -h
+8. Run the command **free -h** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ free -h
               total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.4Gi       204Mi        66Mi       6.2Gi       6.0Gi
 Swap:            0B          0B          0B
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
+9. Run the command **cat /proc/cpuinfo** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
 processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
