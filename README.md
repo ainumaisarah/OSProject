@@ -362,15 +362,25 @@ docker run -itd --net rednet --name c2 busybox sh
 ```
 ***Questions:***
 
-1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** __Fill answer here__.
-2. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** __Fill answer here__.
-3. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** __Fill answer here__.br br
+1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** <br>
+    **busybox :**
+    **--name :**
+3. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)*** __Fill answer here__.
+4. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** <br>
    c1 : 172.18.0.1 <br>
-   c2 : 172.19.0.1
-5. What is the network address for the running container c1 and c2? ***(1 mark)*** __Fill answer here__.<br> <br>
+   c2 : 172.19.0.1 <br>
+   <img src="./images/c1.png" width="70%"> <br>
+   <img src="./images/c2.png" width="70%"> <br>
+   <br>
+   
+5. What is the network address for the running container c1 and c2? ***(1 mark)*** <br>
    c1 : 172.18.0.2 <br>
    c2 : 172.19.0.2 <br>
-7. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
+   <img src="./images/c1.png" width="70%"> <br>
+   <img src="./images/c2.png" width="70%"> <br>
+   <br>
+7. Using the command ```docker exec c1 ping c2```, which basically tries to do a ping from container c1 to c2. Are you able to ping? Show your output . ***(1 mark)*** <br>
+    <img src="./images/failed.png" width="70%"> <br>
 
 ## Bridging two SUB Networks
 1. Let's try this again by creating a network to bridge the two containers in the two subnetworks
@@ -382,8 +392,11 @@ docker exec c1 ping c2
 ```
 ***Questions:***
 
-1. Are you able to ping? Show your output . ***(1 mark)*** __Fill answer here__.
-2. What is different from the previous ping in the section above? ***(1 mark)*** __Fill answer here__.
+1. Are you able to ping? Show your output . ***(1 mark)*** <br>
+    **Yes**<br>
+    <img src="./images/c1pingc2.png" width="70%"> <br>
+2. What is different from the previous ping in the section above? ***(1 mark)***<br>
+
 
 ## Intermediate Level (10 marks bonus)
 
