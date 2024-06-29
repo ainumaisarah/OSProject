@@ -205,7 +205,8 @@ clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
-9. Run the command **top** and type **q** to quit. ***(1 mark)***    
+
+    9. Run the command **top** and type **q** to quit. ***(1 mark)***    
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                
    2289 codespa+  20   0   21.5g 338700  49792 R   1.3   4.2   0:25.19 node                                                                                                   
    2821 codespa+  20   0 1117016  61024  42240 S   0.3   0.8   0:01.29 node                                                                                                   
