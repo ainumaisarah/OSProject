@@ -206,20 +206,29 @@ cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
 e__.
+
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** ____    
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                
    2289 codespa+  20   0   21.5g 338700  49792 R   1.3   4.2   0:25.19 node                                                                                                   
    2821 codespa+  20   0 1117016  61024  42240 S   0.3   0.8   0:01.29 node                                                                                                   
       1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.04 docker-init__.
+
 10. Run the command **uname -a**. ***(1 mark)*** __@ainumaisarah ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-2e1f89 6.5.0-1022-azure #23~22.04.1-Ubuntu SMP Thu May  9 17:59:24 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux__.
+
 11. What is the available free memory in the system. ***(1 mark)*** __6.0 Gib__.
+
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __20.8 GB__.
+
 13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Linux kernel version 6.5.0-1022-azure on an x86_64 architecture, based on Ubuntu with SMP support__.
+
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __ls: Lists files and directories in the current directory without detailed information.
 ls -asl: Lists files and directories in the current directory with detailed information, including file permissions, number of links, owner, group, size, and timestamp.__.
+
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __2560 4K pages__.
+
 16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __2630.933__.
+
 17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __PID 2289. It has a CPU usage of 1.3%__.
 
 ## Running your own container instance.
