@@ -157,7 +157,7 @@ model           : 1
 model name      : AMD EPYC 7763 64-Core Processor
 stepping        : 1
 microcode       : 0xffffffff
-cpu MHz         : 2627.072
+cpu MHz         : 2791.237
 cache size      : 512 KB
 physical id     : 0
 siblings        : 2
@@ -185,7 +185,7 @@ model           : 1
 model name      : AMD EPYC 7763 64-Core Processor
 stepping        : 1
 microcode       : 0xffffffff
-cpu MHz         : 2630.933
+cpu MHz         : 2898.870
 cache size      : 512 KB
 physical id     : 0
 siblings        : 2
@@ -205,7 +205,7 @@ clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
-e__.
+__.
 
 9. Run the command **top** and type **q** to quit. ***(1 mark)*** ____    
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                
