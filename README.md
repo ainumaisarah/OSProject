@@ -574,11 +574,19 @@ You have now set up a Node.js application in a Docker container on nodejsnet net
 
 ***Questions:***
 
-1. What is the output of step 5 above, explain the error? ***(1 mark)*** __Fill answer here__.
-2. Show the instruction needed to make this work. ***(1 mark)*** __Fill answer here__.
+1. What is the output of step 5 above, explain the error? ***(1 mark)*** <br> <img src="./images/error.png" width="70%"><br>
+2. Show the instruction needed to make this work. ***(1 mark)***
+```
+Check if the Service is Running: Ensure that the service or application you are trying to access is actually running. You can check this by looking at the process list (ps aux | grep <process_name> on Unix-like systems) or using system monitoring tools.
 
+Verify Port Availability: Make sure that the port (in this case, port 3000) is open and not blocked by a firewall or other security measures.
 
+Check Configuration: If you are trying to access a specific application or service, verify its configuration files to ensure it is set to listen on port 3000.
 
+Restart the Service: Sometimes, restarting the service or application can resolve temporary issues.
+
+Check Logs: Look at the logs of the application or service for any error messages or warnings that might indicate why it failed to start or listen on the specified port.
+```
 ## What to submit
 
 1. Make sure to commit all changes on your source control, and make sure your source control is sync to the repository. 
