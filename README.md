@@ -76,9 +76,9 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ pwd
+1. Run the command **pwd** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ pwd
 /workspaces/OSProject
-2. Run the command **cat /etc/passwd** . ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /etc/passwd
+2. Run the command **cat /etc/passwd** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -104,7 +104,7 @@ systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
-3. Run the command **df** . ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ df
+3. Run the command **df** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10380492  20773092  34% /
 tmpfs              65536        0     65536   0% /dev
@@ -112,7 +112,7 @@ shm                65536        8     65528   1% /dev/shm
 /dev/root       30298176 24339544   5942248  81% /vscode
 /dev/sdb1       46127956      104  43752276   1% /tmp
 /dev/loop3      32847680 10380492  20773092  34% /workspaces
-4. Run the command **du** . ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ du
+4. Run the command **du** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ du
 2028    ./images
 8       ./.git/logs/refs/heads
 8       ./.git/logs/refs/remotes/origin
@@ -136,20 +136,20 @@ shm                65536        8     65528   1% /dev/shm
 4       ./.git/branches
 2128    ./.git
 4180    .
-5. Run the command **ls** . ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ ls
+5. Run the command **ls** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ ls
 README.md  images
-6. Run the command **ls -asl** . ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ ls -asl
+6. Run the command **ls -asl** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ ls -asl
 total 36
  4 drwxrwxrwx+ 4 codespace root  4096 Jun 29 14:13 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jun 29 14:13 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jun 29 14:23 .git
 20 -rw-rw-rw-  1 codespace root 20298 Jun 29 14:29 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jun 29 14:13 images
-7. Run the command **free -h** . ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ free -h
+7. Run the command **free -h** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ free -h
               total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.4Gi       204Mi        66Mi       6.2Gi       6.0Gi
 Swap:            0B          0B          0B
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
 processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -205,13 +205,12 @@ clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
-
-    9. Run the command **top** and type **q** to quit. ***(1 mark)***    
+9. Run the command **top** and type **q** to quit. ***(1 mark)***    
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                
    2289 codespa+  20   0   21.5g 338700  49792 R   1.3   4.2   0:25.19 node                                                                                                   
    2821 codespa+  20   0 1117016  61024  42240 S   0.3   0.8   0:01.29 node                                                                                                   
       1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.04 docker-init
-10. Run the command **uname -a**. ***(1 mark)*** @ainumaisarah ➜ /workspaces/OSProject (main) $ uname -a
+10. Run the command **uname -a**. ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-2e1f89 6.5.0-1022-azure #23~22.04.1-Ubuntu SMP Thu May  9 17:59:24 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
 11. What is the available free memory in the system. ***(1 mark)*** __6.0 Gib__.
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __20.8 GB__.
