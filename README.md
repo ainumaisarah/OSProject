@@ -76,8 +76,14 @@ codespace
 
 Look at the TERMINAL tab. Run the following commands and provide the output here. 
 
-1. Run the command **pwd** . ***(1 mark)***    @ainumaisarah ➜ /workspaces/OSProject (main) $ pwd/workspaces/OSProject
-2. Run the command **cat /etc/passwd** . ***(1 mark)***@ainumaisarah ➜ /workspaces/OSProject (main) $ cat /etc/passwd
+1. Run the command **pwd** . ***(1 mark)***
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ pwd
+/workspaces/OSProject
+```
+2. Run the command **cat /etc/passwd** . ***(1 mark)*** 
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ cat /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
 bin:x:2:2:bin:/bin:/usr/sbin/nologin
@@ -103,7 +109,10 @@ systemd-resolve:x:103:104:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
 messagebus:x:104:105::/nonexistent:/usr/sbin/nologin
 codespace:x:1000:1000::/home/codespace:/bin/bash
 sshd:x:105:65534::/run/sshd:/usr/sbin/nologin
-3. Run the command **df** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ df
+```
+3. Run the command **df** . ***(1 mark)***
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ df
 Filesystem     1K-blocks     Used Available Use% Mounted on
 overlay         32847680 10380492  20773092  34% /
 tmpfs              65536        0     65536   0% /dev
@@ -111,7 +120,10 @@ shm                65536        8     65528   1% /dev/shm
 /dev/root       30298176 24339544   5942248  81% /vscode
 /dev/sdb1       46127956      104  43752276   1% /tmp
 /dev/loop3      32847680 10380492  20773092  34% /workspaces
-4. Run the command **du** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ du
+```
+4. Run the command **du** . ***(1 mark)***
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ du
 2028    ./images
 8       ./.git/logs/refs/heads
 8       ./.git/logs/refs/remotes/origin
@@ -135,20 +147,32 @@ shm                65536        8     65528   1% /dev/shm
 4       ./.git/branches
 2128    ./.git
 4180    .
-5. Run the command **ls** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ ls
+```
+5. Run the command **ls** . ***(1 mark)***
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ ls
 README.md  images
-6. Run the command **ls -asl** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ ls -asl
+```
+6. Run the command **ls -asl** . ***(1 mark)***
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ ls -asl
 total 36
  4 drwxrwxrwx+ 4 codespace root  4096 Jun 29 14:13 .
  4 drwxr-xrwx+ 5 codespace root  4096 Jun 29 14:13 ..
  4 drwxrwxrwx+ 9 codespace root  4096 Jun 29 14:23 .git
 20 -rw-rw-rw-  1 codespace root 20298 Jun 29 14:29 README.md
  4 drwxrwxrwx+ 2 codespace root  4096 Jun 29 14:13 images
-7. Run the command **free -h** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ free -h
+ ```
+7. Run the command **free -h** . ***(1 mark)***
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ free -h
               total        used        free      shared  buff/cache   available
 Mem:          7.7Gi       1.4Gi       204Mi        66Mi       6.2Gi       6.0Gi
 Swap:            0B          0B          0B
-8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
+```
+8. Run the command **cat /proc/cpuinfo** . ***(1 mark)***
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ cat /proc/cpuinfo
 processor       : 0
 vendor_id       : AuthenticAMD
 cpu family      : 25
@@ -156,7 +180,7 @@ model           : 1
 model name      : AMD EPYC 7763 64-Core Processor
 stepping        : 1
 microcode       : 0xffffffff
-cpu MHz         : 2791.237
+cpu MHz         : 3232.765
 cache size      : 512 KB
 physical id     : 0
 siblings        : 2
@@ -168,8 +192,8 @@ fpu             : yes
 fpu_exception   : yes
 cpuid level     : 13
 wp              : yes
-flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
-bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_t
+sc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm                                                                                                                                                    bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
 bogomips        : 4890.86
 TLB size        : 2560 4K pages
 clflush size    : 64
@@ -184,7 +208,7 @@ model           : 1
 model name      : AMD EPYC 7763 64-Core Processor
 stepping        : 1
 microcode       : 0xffffffff
-cpu MHz         : 2898.870
+cpu MHz         : 2939.905
 cache size      : 512 KB
 physical id     : 0
 siblings        : 2
@@ -196,33 +220,42 @@ fpu             : yes
 fpu_exception   : yes
 cpuid level     : 13
 wp              : yes
-flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm
-bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
+flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_t
+sc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid aperfmperf pni pclmulqdq ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext invpcid_single vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves clzero xsaveerptr rdpru arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload umip vaes vpclmulqdq rdpid fsrm                                                                                                                                                    bugs            : sysret_ss_attrs null_seg spectre_v1 spectre_v2 spec_store_bypass srso
 bogomips        : 4890.86
 TLB size        : 2560 4K pages
 clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management:
-9. Run the command **top** and type **q** to quit. ***(1 mark)***    
+```
+9. Run the command **top** and type **q** to quit. ***(1 mark)***
+```
+top - 15:53:18 up  1:44,  0 users,  load average: 0.04, 0.14, 0.16
+Tasks:  27 total,   1 running,  26 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.4 us,  3.7 sy,  0.0 ni, 92.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   7929.6 total,    606.1 free,   1733.0 used,   5590.5 buff/cache
+MiB Swap:      0.0 total,      0.0 free,      0.0 used.   5813.2 avail Mem 
+
     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND                                                                                                
-   2289 codespa+  20   0   21.5g 338700  49792 R   1.3   4.2   0:25.19 node                                                                                                   
-   2821 codespa+  20   0 1117016  61024  42240 S   0.3   0.8   0:01.29 node                                                                                                   
-      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.04 docker-init
-
-10. Run the command **uname -a**. ***(1 mark)***     @ainumaisarah ➜ /workspaces/OSProject (main) $ uname -a
+  36645 codespa+  20   0   21.5g 336292  49920 S   1.7   4.1   0:27.81 node                                                                                                   
+   2821 codespa+  20   0 1317532  67768  42368 S   0.7   0.8   0:03.95 node                                                                                                   
+      1 codespa+  20   0    1136    640    640 S   0.0   0.0   0:00.14 docker-init                                                                                          
+```
+10. Run the command **uname -a**. ***(1 mark)***
+```
+@ainumaisarah ➜ /workspaces/OSProject (main) $ uname -a
 Linux codespaces-2e1f89 6.5.0-1022-azure #23~22.04.1-Ubuntu SMP Thu May  9 17:59:24 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
-
+```
 11. What is the available free memory in the system. ***(1 mark)*** __6.0 Gib__.
-
 12. What is the available disk space mounted on /workspace. ***(1 mark)*** __20.8 GB__.
-
-13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Linux kernel version 6.5.0-1022-azure on an x86_64 architecture, based on Ubuntu with SMP support__.
+13. Name the version and hardware architecture of the linux Virtual environment. ***(1 mark)*** __Linux kernel version 6.5.0-1022-azure on an x86_64 architecture, based on Ubuntu with SMP support.__.
 14. What is the difference between **ls** vs **ls -asl**. ***(1 mark)*** __ls: Lists files and directories in the current directory without detailed information.
 ls -asl: Lists files and directories in the current directory with detailed information, including file permissions, number of links, owner, group, size, and timestamp.__.
 15. What is the TLB size of the Virtual CPU. ***(1 mark)*** __2560 4K pages__.
-16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __2630.933__.
-17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __PID 2289. It has a CPU usage of 1.3%__.
+16. What is the CPU speed of the Virtual CPU. ***(1 mark)*** __3232.765__.
+17. What is the top running process that consumes the most CPU cycles. ***(1 mark)*** __PID 36645. It has a CPU usage of 1.7%__.
+
 
 ## Running your own container instance.
 
