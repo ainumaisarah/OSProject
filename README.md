@@ -363,13 +363,13 @@ docker run -itd --net rednet --name c2 busybox sh
 ***Questions:***
 
 1. Describe what is busybox and what is command switch **--name** is for? . ***(2 mark)*** <br>
-    **busybox :** A lightweight software utility that combines many common Unix/Linux commands into a single executable file. It is often used in embedded systems and Docker containers because it provides essential commands without the need for a full operating system, keeping the environment small and efficient. <br>
-    **--name :** Allows you to assign a specific name to a container instead of relying on Docker's default random names. This makes it easier to identify, manage, and reference the container later. <br>
+    a) **busybox :** A lightweight software utility that combines many common Unix/Linux commands into a single executable file. It is often used in embedded systems and Docker containers because it provides essential commands without the need for a full operating system, keeping the environment small and efficient. <br><br>
+    b) **--name :** Allows you to assign a specific name to a container instead of relying on Docker's default random names. This makes it easier to identify, manage, and reference the container later. <br>
 3. Explore the network using the command ```docker network ls```, show the output of your terminal. ***(1 mark)***<br>
 <img src="./images/ls.png" width="70%"> <br><br>
 4. Using ```docker inspect c1``` and ```docker inspect c2``` inscpect the two network. What is the gateway of bluenet and rednet.? ***(1 mark)*** <br>
-   c1 : 172.18.0.1 <br>
-   c2 : 172.19.0.1 <br>
+   bluenet(c1) : 172.18.0.1 <br>
+   rednet(c2) : 172.19.0.1 <br>
    <img src="./images/c1.png" width="70%"> <br>
    <img src="./images/c2.png" width="70%"> <br>
    <br>
@@ -396,7 +396,7 @@ docker exec c1 ping c2
 1. Are you able to ping? Show your output . ***(1 mark)*** <br>
     **Yes**<br>
     <img src="./images/c1pingc2.png" width="70%"> <br>
-2. What is different from the previous ping in the section above? ***(1 mark)***<br>
+2. What is different from the previous ping in the section above? ***(1 mark)***<br><br>
 In the previous section, c1 was unable to ping c2 because they were on separate, isolated networks which are bluenet and rednet. After connecting both containers to the bridgenet network, they could communicate with each other, allowing c1 to successfully ping c2.
 
 
